@@ -1,0 +1,346 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 887700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHooks()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Google Add Place API Test End to End",
+        "description": "",
+        "id": "testing-rest-api-using-framework;google-add-place-api-test-end-to-end;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1413093900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Add Place Payload with \"AAhouse\" \"English\" and \"World cross center\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AAhouse",
+                  "offset": 24
+                },
+                {
+                  "val": "English",
+                  "offset": 34
+                },
+                {
+                  "val": "World cross center",
+                  "offset": 48
+                }
+              ],
+              "location": "stepDefination.add_Place_Payload_with(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1376187700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user calls \"AddPlaceAPI\" with \"POST\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AddPlaceAPI",
+                  "offset": 12
+                },
+                {
+                  "val": "POST",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefination.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3925700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the API call should be successful with 200 code",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefination.the_API_call_should_be_successful_with_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 383678600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"status\" in reponse body is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 1
+                },
+                {
+                  "val": "OK",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefination.in_reponse_body_is(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12851600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"scope\" in reponse body is \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "scope",
+                  "offset": 1
+                },
+                {
+                  "val": "APP",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefination.in_reponse_body_is(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 184545900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify place_Id created maps to \"AAhouse\" using \"GetPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AAhouse",
+                  "offset": 33
+                },
+                {
+                  "val": "GetPlaceAPI",
+                  "offset": 49
+                }
+              ],
+              "location": "stepDefination.verify_place_Id_created_maps_to_using(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@AddPlace"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 105200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHooks()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Google Add Place API Test End to End",
+        "description": "",
+        "id": "testing-rest-api-using-framework;google-add-place-api-test-end-to-end;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9712100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Add Place Payload with \"BBhouse\" \"Spanish\" and \"Sea cross center\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BBhouse",
+                  "offset": 24
+                },
+                {
+                  "val": "Spanish",
+                  "offset": 34
+                },
+                {
+                  "val": "Sea cross center",
+                  "offset": 48
+                }
+              ],
+              "location": "stepDefination.add_Place_Payload_with(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 124891700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user calls \"AddPlaceAPI\" with \"POST\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AddPlaceAPI",
+                  "offset": 12
+                },
+                {
+                  "val": "POST",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefination.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the API call should be successful with 200 code",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefination.the_API_call_should_be_successful_with_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11348300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"status\" in reponse body is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 1
+                },
+                {
+                  "val": "OK",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefination.in_reponse_body_is(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14986000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"scope\" in reponse body is \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "scope",
+                  "offset": 1
+                },
+                {
+                  "val": "APP",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefination.in_reponse_body_is(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148226900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify place_Id created maps to \"BBhouse\" using \"GetPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BBhouse",
+                  "offset": 33
+                },
+                {
+                  "val": "GetPlaceAPI",
+                  "offset": 49
+                }
+              ],
+              "location": "stepDefination.verify_place_Id_created_maps_to_using(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@AddPlace"
+          }
+        ]
+      }
+    ],
+    "name": "Testing Rest API using framework",
+    "description": "",
+    "id": "testing-rest-api-using-framework",
+    "keyword": "Feature",
+    "uri": "RestAPItesting.feature"
+  }
+]
